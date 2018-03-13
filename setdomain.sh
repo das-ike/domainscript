@@ -40,17 +40,7 @@ fi
   ORIGIN=$2
 fi
 
-
-
-
-
-
 IDENTIFIER=$(head /dev/urandom | tr -dc a-z0-9 | head -c 10 ; echo '')
-
-
-
-
-
 
 if [ ! -d "$TEMPLATE" ]; then
  echo "Error: template dir not found!"
